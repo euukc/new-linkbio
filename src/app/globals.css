@@ -10,20 +10,20 @@
   color: white;
   font-family: "Lato", sans-serif;
   font-weight: 600;
-  
+
 }
 
 html {
   background-image: url(/bg-mo3.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;    
-  height: 100%;
+  background-repeat: no-repeat;
+  min-height: 100%;
   width: 100%;
 }
 
-.botoes-links{
-  display: flex;  
+.botoes-links {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   border: 2px solid black;
@@ -32,13 +32,13 @@ html {
   height: 50px;
   padding: 20px;
   font-size: 18px;
-  box-shadow: 3px 3px #8fe20eff;   
+  box-shadow: 3px 3px #8fe20eff;
 }
 
-.botoes-links:hover{
+.botoes-links:hover {
   background-color: #8fe20eff;
   cursor: pointer;
-  color: rgb(29, 28, 28);   
+  color: rgb(29, 28, 28);
 }
 
 
@@ -47,13 +47,13 @@ html {
     background-image: url(/bg-mo3.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     min-height: 100%;
-    width: 100%;    
+    width: 100%;
   }
 
-  .botoes-links{
-    display: flex;  
+  .botoes-links {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     border: 2px solid black;
@@ -62,6 +62,6 @@ html {
     height: 43px;
     padding: 20px;
     font-size: 18px;
-    box-shadow: 3px 3px #8fe20eff;    
+    box-shadow: 3px 3px #8fe20eff;
   }
 }
