@@ -9,7 +9,8 @@
   box-sizing: border-box;
   color: white;
   font-family: "Lato", sans-serif;
-    font-weight: 600;
+  font-weight: 600;
+  
 }
 
 html {
@@ -31,8 +32,7 @@ html {
   height: 50px;
   padding: 20px;
   font-size: 18px;
-  box-shadow: 3px 3px #8fe20eff;
-   
+  box-shadow: 3px 3px #8fe20eff;   
 }
 
 .botoes-links:hover{
@@ -48,8 +48,8 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;    
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    width: 100%;    
   }
 
   .botoes-links{
